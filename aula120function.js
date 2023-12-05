@@ -39,3 +39,15 @@ const sayMyName = () => {
 }
 
 sayMyName()
+
+// callback function - chame de volta
+
+console.log("callback function ")
+
+function SayMy(name) {
+    return name
+}
+
+console.log(SayMy("estou em uma call back"))// uma funcao que esta passando paramentro para outra função
+
+
