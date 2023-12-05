@@ -21,3 +21,21 @@ function createThink(subject) {
 
 console.log(subject)
 console.log(createThink(subject))
+
+// function hoisting
+console.log("function hoisting")
+sayMyname()
+
+function sayMyname(){
+    console.log(`Mayk`)
+}
+
+// arraw function 
+console.log("arraw function ")
+
+
+const sayMyName = () => {
+    console.log('Mayk')
+}
+
+sayMyName()
