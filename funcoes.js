@@ -10,3 +10,14 @@ console.log(`o numero  é ${number1}`)
 console.log(`o numero  é ${number2}`)
 
 console.log(`a soma é ${sum(number1, number2)}`)
+// function scope
+
+let subject
+
+function createThink(subject) {
+    subject = "study" // tem significado
+    return subject
+}
+
+console.log(subject)
+console.log(createThink(subject))
